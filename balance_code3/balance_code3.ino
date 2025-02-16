@@ -5,9 +5,9 @@ MPU6050 mpu(Wire);
 unsigned long timer = 0;
 
 // PID Constants (Tune these for best performance)
-float Kp = 85.0;
-float Ki = 8.0;
-float Kd = 1.0;
+float Kp = 5.0;
+float Ki = 58.0;
+float Kd = 10.0;
 
 float setpoint = 0;  // Desired pitch angle (robot balanced at 0°)
 float previous_error = 0.0;
